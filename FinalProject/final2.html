@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- Joseph Daniel 11/19/2018 -->
+
+<html lang="en">
+	<head>
+		<title>Best Practices for HTML</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+	<div id="container">
+		<header>
+			<h1>Top 10 Best Practices for HTML</h1>
+		</header>
+		<div id="navcontainer">
+			<ul>
+				<li><a href="final1.html">Home</a></li>
+				<li><a href="final3.html">Contact</a></li>
+				<li><a href="final4.html">Credits</a></li>
+				<li><a href="final5.html">Course OB</a></li>
+			</ul>
+		</div><!-- close div for the nav container -->
+		<main>
+			<div class="row">
+				<div class="column"><!-- This is for the column on the left side of the page -->
+					<p>There are many different options about what should be in the top when considering HTML and CSS coding. After much research and deliberation, I have come up with the top 10 that all articles had in common.</p>
+				<h3>Use Proper Document Structure</h3>
+					<p>Make sure you are including the right document type and elements inside of your coding. Things like &lt; html &gt;, &lt; head &gt;, &lt; body &gt;, &lt; main &gt;, etc.
+				Since web pages do not always render correctly, it is important to be consistent when using the right document structure.</p>
+				<img src="documents.jpg" alt="Html Structure" width="289" height="292">
+				<h3>Don't Use Inline Styles</h3>
+					<p>Never mix an internal style sheet with an external style sheet. Always learn to use the external style sheet when possible and creating presentations. If you need another style, just code another sheet and 
+				call the one that you would like to use. Make sure to place your external style sheet within the &lt; head &gt; tag.</p>
+				<h3>Image Attribution</h3>
+					<p>Although it is not required to use an alt attribute with your images, programmers should get into the habit of using descriptive text attributes on their images whenever possible
+				(because it provides context to screen readers) but leave the value blank if the image has no important relevance to anything. This will help with validation and give greater accessibility.</p>
+				<h3>Validate Frequently</h3>
+					<p>Using the W3C Standards will help your web pages load faster. Validate often to make sure your coding has no errors and never wait for the end of the project because that is where the most errors will occur.
+				It will save you time, especially if your code is a lengthy one. The links below will provide the validation for both HTML and CSS.</p>
+				<ul>
+					<li><a href="https://validator.w3.org/">W3C Validator &lpar; HTML &rpar;</a></li>
+					<li><a href="https://jigsaw.w3.org/css-validator/">CSS Validator</a></li>
+				</ul>
+				<h3>Use Meaningful Tags</h3>
+				<p>Making sure that your title tags are search-engine friendly and be sure to use descriptivemeta tags that define the purpose of your web page. This will ensure that people find your page quicker.</p>
+				</div><!-- Closed div for left column -->
+			
+				<div class="column"><!-- Column on the right side of the page -->
+				<h3>Use DIV Tags with Class/ID Selectors Wisely</h3>
+				<p>Using div tag for major sections is fine but do not get into the habit of always wanting to use them. Know the difference between Class and ID selectors. 
+				Apply classes to multiple elements that have the same style properties but use Ids for the unique style elements of a single type. Class selectors will always have a period before the name (ex. .features) while the ID selectors have # before the name (ex. #features). 
+				Remember that HTML markup will not care if your tags are uppercase or not but stay away from this and make your tags lowercase.</p>
+				<h3>Using Good Semantics</h3>
+				<p>Making a navigation list should always be an unordered &lt; ul &gt; or ordered &lt; ol &gt; list. Using a paragraph &lt; p &gt; instead of breaks &lt; br &gt; is also considered good practice. 
+				Knowing when to use the right tags in the right place is important when organizing your markup to ensure that it will look clean. </p>
+				<h3>Commenting Your Coding</h3>
+				<p>Commenting your coding is not really necessary considering the fact that you will always have to return to your markup on a different day and thus, could only confuse yourself and others but knowing when to comment out your coding can be important. 
+				For example, commenting out a closing div tag with which one it started with could be helpful when the user has multiple div tags. </p>
+				<div class="image">
+					<img src="comments.jpg" alt="Comment Example" width="390" height="38">
+				</div>
+				<h3>Use a CSS Reset File</h3>
+				<p>Sometimes a file will get an extra bit of padding or something along those lines. This happens because every browser has its own default stylesheet that it uses to make unstyled websites appear more legible. 
+				Creating this reset file will give a consistent baseline for your HTML file to follow and prevent this from happening. </p>
+				<h3>Put JavaScript Files at the Bottom</h3>
+				<p>By doing this, all your HTMl content will load first and then the Javascripting will load second. This ensures that the content is loaded properly.</p>
+				</div><!-- Closed div for right column -->
+			</div><!-- closed div for the row -->
+			<footer>
+					Copyright &copy; Joseph Daniel<br>
+					<a href="josephdan86@gmail.com">josephdan86@gmail.com</a>
+			</footer><br><br>
+			<div id="navcontainer">
+				<ul>
+					<li><a href="final1.html">Home</a></li>
+					<li><a href="final3.html">Contact</a></li>
+					<li><a href="final4.html">Credits</a></li>
+					<li><a href="final5.html">Course OB</a></li>
+				</ul>
+			</div><!-- close div for the nav container -->
+		</main>
+	</div>
+	</body>
+</html>
